@@ -3,18 +3,23 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt -p 8082",
+    "dev": "nuxt -p 8083",
     "build": "nuxt build",
-    "start": "nuxt start -p 8082",
+    "start": "nuxt start -p 8083",
     "generate": "nuxt generate",
     "test": "jest"
   },
   "dependencies": {
     "core-js": "^3.25.3",
     "nuxt": "^2.15.8",
+    "nuxt-buefy": "^0.4.25",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2"
+  }
 }
