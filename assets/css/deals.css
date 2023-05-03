@@ -1,0 +1,170 @@
+.deals-page-wrapper {
+  margin-top: 65px;
+}
+.deals-banner {
+  background-image: url(../../assets/images/istanbulcapod.jpg);
+  padding: 90px 0;
+  color: #fff;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+h1.st-heading {
+  font-size: 42px;
+  font-weight: 600;
+  text-shadow: 1px 3px rgb(0 0 0 / 20%);
+}
+.deals-search {
+  background: #fff;
+  border-radius: 5px;
+  display: inline-block;
+  max-width: 800px;
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+}
+.deals-form {
+  display: flex;
+  -moz-column-gap: 10px;
+  column-gap: 10px;
+  align-items: center;
+}
+button.theme--light.v-btn.primary {
+  background: #00e0ea;
+}
+button.v-btn.primary:hover {
+  background: #00d3dd;
+}
+.deals-form .v-text-field {
+  padding-top: 0;
+  margin-top: 4px;
+}
+.v-input .v-label {
+  left: 0!important;
+  top:14px;
+}
+.deals-banner:before {
+  content: "";
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.deals-banner .container {
+  position: relative;
+}
+.deals-form .v-text-field--outlined > .v-input__control > .v-input__slot {
+  min-height: 45px;
+  margin: 0;
+}
+.date-field .v-input__prepend-outer {
+  position: absolute;
+  left: 5px;
+  top: -7px;
+}
+.date-field .v-input__slot {
+  padding-left: 35px!important;
+  margin: 0;
+}
+.deals-form button.theme--light.v-btn.primary {
+  height: 45px;
+}
+.deals-form .v-text-field--enclosed .v-input__append-inner {
+  margin-top: 11px;
+}
+.tours-wrapper .tours-title {
+  font-weight: 600;
+  font-size: 30px;
+  max-width: 70%;
+}
+a.tour-slider-img-wrapper {
+  display: inline-block;
+  width: 100%;
+}
+.tours-list {
+  display: flex;
+  -moz-column-gap: 2%;
+  column-gap: 2%;
+  flex-wrap: wrap;
+}
+.destination-box {
+  position: relative;
+}
+.tour-off-tag {
+  background: #e50606;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 600;
+  left: 10px;
+  padding: 4px 10px;
+  position: absolute;
+  top: 10px;
+}
+.tour-off-tag.right {
+  top: unset !important;
+  left: 10px;
+  bottom: 10px;
+}
+.destination-card-con {
+  align-items: center;
+  bottom: 0;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  position: absolute;
+  width: 100%;
+}
+.destination-card-con h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 22px;
+}
+.deals-count i {
+  font-size: 11px;
+}
+.tour-img {
+  border-radius: 10px;
+  overflow: hidden;
+  height: 250px;
+  background: #bbb;
+}
+.tour-img img {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+.more-btn {
+  background: #ecf5fa;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.destination-card-item {
+  flex: 0 0 32%;
+}
+
+
+@media screen and (max-width: 990px) {
+  .destination-card-item {
+    flex: 0 0 49%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .destination-card-item {
+    flex: 0 0 100%;
+  }
+  .destination-card-con h4 {
+    font-size: 18px;
+  }
+  .deals-form {
+    flex-wrap: wrap;
+  }
+  .deals-form .v-text-field {
+    margin-bottom: 10px;
+  }
+  .deals-form button.theme--light.v-btn.primary {
+    width: 100%;
+  }
+}

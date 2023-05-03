@@ -40,6 +40,11 @@ export default {
         // Or you can customize
         ['nuxt-buefy', { css: false, materialDesignIcons: false }],
   ],
+  watchers: {
+    webpack: {
+      ignored: /(node_modules)|(.git)|(.idea)|(static\/cache)|(.nuxt\/.dist)/
+    }
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
