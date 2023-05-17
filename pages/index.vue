@@ -1,9 +1,13 @@
 <template>
-  <Tutorial/>
+  <About />
 </template>
 
 <script>
+import About from './index.vue'
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  components: {
+    About
+  }
 }
 </script>
